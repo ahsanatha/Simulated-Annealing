@@ -19,8 +19,8 @@ Takhir = 0
 CoolingRate = 0.3
 
 while Tawal != Takhir :
-    x1 = x1 + rand()
-    x2 = x2 + rand()
+    x1 = rand()
+    x2 = rand()
     NewState = rumus(x1, x2)
     dE = CurrentState - NewState
     if dE < 0 :
