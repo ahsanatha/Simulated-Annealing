@@ -1,5 +1,7 @@
 ## Simulated Annealing
 This is a homework projct from my study group AI laboratory. Kindly read about [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
+[![example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d5/Hill_Climbing_with_Simulated_Annealing.gif)]
+credit gif : [wikipedia](https://en.wikipedia.org/)
 
 
 ## Breakdown
