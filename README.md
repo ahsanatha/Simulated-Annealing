@@ -16,4 +16,4 @@ the purpose of this project is to find the lowest result of this function :
 ## License
 A short snippet describing the license (MIT, Apache etc)
 
-MIT © [Yourname]()
+MIT © [Muhammad Ahsan Athallah](#)
