@@ -14,11 +14,11 @@ x2 = rand()
 CurrentState = rumus(x1,x2)
 BSF = CurrentState
 
-Tawal = 99999999999999999999999999999999999
+Tawal = 2000000000000
 Takhir = 0
-CoolingRate = 0.99999999999999999999999999999999999
+CoolingRate = 0.5
 
-while Tawal != Takhir :
+while Tawal > Takhir :
     x1 = rand()
     x2 = rand()
     NewState = rumus(x1, x2)
