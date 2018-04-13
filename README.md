@@ -24,9 +24,9 @@ Because we are using float as variable type.
 ## Conclusion
 So, if you try to run this program repeatedly, you will realize that the answer is always around
 ```
--0.043
+-0.044
 ```
-so i jumped into my conlusion that the minimum result is **-0.043**
+so i jumped into my conlusion that the minimum result is **-0.044**
 
 ## License
 A short snippet describing the license (MIT, Apache etc)
