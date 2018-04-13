@@ -13,8 +13,9 @@ Initial Temperature is 2000000000000.
 and The Cooling Rate is 0.5
 
 ### Hypothesis
-i assume that if you make Cooling rate Greater than 0.5 you will make the program infinity loop.
+i assume that if you make cooling rate greater than 0.5 you will make the program infinity loop.
 Because we are using float as variable type.
+    [!] update : this is not a infinity loop. when you make Cooling Rate greater than 0.5, its harder to Tawal to reach 0 since there is an infinite floating number before reach 0. So i changed Takhir to 0.000001. And modify the cooling rate so there will be a lot of process going on before reach the lowest temperature.
 
 
 ## Result

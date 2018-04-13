@@ -15,8 +15,8 @@ CurrentState = rumus(x1,x2)
 BSF = CurrentState
 
 Tawal = 2000000000000
-Takhir = 0
-CoolingRate = 0.5
+Takhir = 0.000001
+CoolingRate = 0.9999
 
 while Tawal > Takhir :
     x1 = rand()
@@ -24,13 +24,17 @@ while Tawal > Takhir :
     NewState = rumus(x1, x2)
     dE = NewState - CurrentState
     if dE < 0 :
+        Bx1 = x1
+        Bx2 = x2
         CurrentState = NewState
         BSF = NewState
     else:
         R = random()
         if key(dE, Tawal) > R :
+            Bx1 = x1
+            Bx2 = x2
             CurrentState = NewState
             BSF = NewState
     Tawal = Tawal * CoolingRate
-print ("x1 = ", x1, "x2 = ", x2)
+print ("x1 = ", Bx1, "x2 = ", Bx2)
 print ("BSF = ", BSF)
