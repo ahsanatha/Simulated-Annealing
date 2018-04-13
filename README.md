@@ -10,7 +10,7 @@ the purpose of this project is to find the lowest result of this function :
 ![function](https://github.com/ahsanatha/AI-Simulated-Annealing/blob/master/img/function.png)
 
 Initial Temperature is 2000000000000.
-and The Cooling Rate is 0.5
+and The Cooling Rate is 0.000001
 
 ### Hypothesis
 i assume that if you make cooling rate greater than 0.5 you will make the program infinity loop.
